@@ -11,39 +11,21 @@ project 1 - A Random Quote Generator
  * `quotes` array 
 ***/
 
-const quotes = [
+const quoteList = [
     {
-        text: 'example',
-        name: 'example'
-    },
-    {
-        text: 'example',
-        name: 'example'
-    },
-    {
-        text: 'example',
-        name: 'example'
-    },
-    {
-        text: 'example',
-        name: 'example'
-    },
-    {
-        text: 'example',
-        name: 'example'
-    },
-    {
-        text: 'example',
-        name: 'example'
-    },
+        quote: 'example',
+        source: 'example',
+        citation: 'example',
+        date: 0
+    }
 ];
 
 /***
  * `getRandomQuote` function
 ***/
 
-getRandomQuote(){
-    //
+function getRandomQuote(){
+ 
 };
 
 
@@ -51,8 +33,8 @@ getRandomQuote(){
  * `printQuote` function
 ***/
 
-printQuote(){
-
+function printQuote(){
+    
 };
 
 
