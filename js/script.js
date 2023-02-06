@@ -9,7 +9,7 @@ project 1 - A Random Quote Generator
 
 /*** 
  * `quotes` array 
- * contains the quotes for later use, some with citation and dates, some without - all with Quote and Source.
+ * contains the quotes for later use, some with citation and years, some without - all with Quote and Source.
 ***/
 
 const quoteList = [
@@ -18,34 +18,34 @@ const quoteList = [
         source: 'Mike Hedberg',
         citation: 'Just For Laughs On The Edge',
         type: 'Comedy Show',
-        date: '2002'
+        year: '2002'
     },
     {
         quote: 'I don`t understand why people would want to get rid of pigeons. They don`t bother no one.',
         source: 'Mike Tyson',
         type: 'Twitter',
-        date: '2022',
+        year: '2022',
     },
     {
         quote: 'Winners are not afraid of losing. But losers are. Failure is part of the process of success. People who avoid failure also avoid success.',
         source: 'Robert T. Kiyosaki',
         citation: 'Rich Dad Poor Dad',
         type: 'Book',
-        date: '1997'
+        year: '1997'
     },
     {
         quote: 'Gentlemen, you can`t fight in here. This is the war room.',
         source: 'President Merkin Muffley (Peter Sellers)',
         citation: 'Dr. Strangelove',
         type: 'Movie',
-        date: '1964'
+        year: '1964'
     },
     {
         quote: 'Ted Striker: “Surely you can`t be serious.” - Dr. Rumack: “I am serious. And don`t call me Shirley”',
         source: 'Ted Striker (Robert Hays) and Dr. Rumack (Leslie Nielsen)',
         citation: 'Airplane!',
         type: 'Movie',
-        date: '1980'
+        year: '1980'
     },
     {
         quote: 'That which does not kill us makes us stronger.',
@@ -89,15 +89,15 @@ function printQuote(){
     let htmlQuote = `
         <p class="quote"> ${currentQuote.quote}</p><p class="source"> ${currentQuote.source}`;
 
-    //added parts of the HTML formatted quote, depending on IF citation, type or date of quote is available
+    //added parts of the HTML formatted quote, depending on IF citation, type or year of quote is available
     if ('citation' in currentQuote) {
         htmlQuote += `<span class="citation"> ${currentQuote.citation}</span>`;
     };
     if ('type' in currentQuote) {
         htmlQuote += `<span class="citation"> ${currentQuote.type}</span>`;
     };
-    if ('date' in currentQuote) {
-        htmlQuote += `<span class="citation"> ${currentQuote.date}</span>`;
+    if ('year' in currentQuote) {
+        htmlQuote += `<span class="citation"> ${currentQuote.year}</span>`;
     };
 
     //finalization of HTML quote, that closes the paragraph
