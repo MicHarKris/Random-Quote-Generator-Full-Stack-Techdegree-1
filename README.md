@@ -1,4 +1,4 @@
-# Full-Stack-Techdegree - Project-1
+# Full-Stack-Techdegree - Project 1
 Randomized Quote Generator
 
 This project contains a list of quotes with different key-value pairs, and writes them to the quote-box of the index.html, when the button in the window is pressed, or whenever 10 seconds passes.
