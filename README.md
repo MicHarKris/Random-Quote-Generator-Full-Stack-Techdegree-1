@@ -1,6 +1,11 @@
 # Full-Stack-Techdegree - Project 1
 Randomized Quote Generator
 
+'You'll use your growing knowledge of basic JavaScript syntax, variables, loops, conditionals, and object literals to:
+- Build the array of quote objects to store the quotes.
+- Write your own functions for selecting random quotes from the array and printing them to the screen.
+This project is a fun and effective way for you to practice basic JavaScript skills while also creating a simple interactive portfolio piece to showcase your understanding of JavaScript fundamentals.'
+
 This project contains a list of quotes with different key-value pairs, and writes them to the quote-box of the index.html, when the button in the window is pressed, or whenever 10 seconds passes.
 
 Extra Credit: 
